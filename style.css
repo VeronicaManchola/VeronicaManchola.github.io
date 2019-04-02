@@ -1,0 +1,156 @@
+body{
+    background-color: #2d4757 !important;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    background-image: url('./Imagenes/header.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#profileImage{
+    display: inline-block;
+    border-radius: 50%;
+    background-image: url('./Imagenes/IMG_9024.JPG');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+
+.section{
+    min-height: 31.5rem !important;
+}
+
+.title{
+    color: #9CD4E0 !important;
+}
+
+p{
+    color: #5E8C9E !important;
+}
+
+a{
+    color: #9CD4E0 !important;
+}
+
+.spacing{
+    margin-top: 1rem;
+}
+
+.initial{
+    display: initial;
+}
+
+.nav{
+    flex-wrap: nowrap !important;
+    display: inline-flex !important;
+}
+
+.nav-tabs{
+    border-bottom: 1px solid #5E8C9E !important;
+    cursor: pointer;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    background-color: #5E8C9E !important;
+    color: #90E083 !important;
+    border-color: #5E8C9E !important;
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{
+    color: #90E083 !important;
+    border-color: #90E083 !important;
+}
+
+a:hover{
+    color: #90E083 !important;
+}
+
+.centered{
+    text-align: center;
+}
+
+.middle{
+    margin: 0 auto;
+}
+
+.card{
+    background-color: transparent !important;
+    border: 1px solid #90E083 !important;
+}
+
+.card-img{
+    width: auto !important;
+    height: 100%;
+}
+
+.fixedHeight{
+    height: 12rem;
+    overflow: hidden;
+    text-align: center;
+}
+
+.skills{
+    font-size: 5rem !important;
+}
+
+.sizing{
+    height: 5rem;
+    width: auto;
+}
+
+@media only screen and (max-width: 350px) {
+    .nav-item{
+        font-size: 0.84rem !important;
+    }
+
+    .nav{
+        width: inherit;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    header{
+        height: 10rem;
+        margin-bottom: 4rem;
+    }
+
+    #profileImage{
+        width: 100px;
+        height: 100px;
+    }
+
+    .imgPosition{
+        bottom: -7rem;
+        position: relative;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    header {
+        height: 15rem;
+        margin-bottom: 6rem;
+    }
+
+    #profileImage{
+        width: 150px;
+        height: 150px;
+    }
+
+    .imgPosition{
+        position: relative;
+        bottom: -10rem;
+    }
+
+    h4{
+        font-size: 2rem !important;
+    }
+
+    .nav-item{
+        margin: 0 1.5rem !important;
+    }
+} 
