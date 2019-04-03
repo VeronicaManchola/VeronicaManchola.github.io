@@ -3,7 +3,7 @@ export const englishPage = () => {
     summary.innerHTML = `
     Front-End Developer, self-taught and proactive.
     <br>
-    Highly responsible, punctual and commited.
+    Highly responsible, punctual and committed.
     <br>
     Native spanish speaker.
     `;
@@ -27,7 +27,7 @@ export const englishPage = () => {
                     </div>
                     <div class="card-body">
                         <h5 class="card-title title">Pokedex Kanto</h5>
-                        <p class="card-text">Usage of data from a JSON file to show it in a dynamic way
+                        <p class="card-text">Usage of data from a JSON file to display it in a dynamic way
                         including options as filters, order and search.</p>
                     </div>
                 </div>
