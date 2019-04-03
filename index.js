@@ -101,15 +101,15 @@ contact.addEventListener("click", () => {
     <div class="container spacing">
         <div class="row centered middle">
             <div class="col-5 col-sm-4 col-md-3 middle">
-                <img class="sizing spacing" src="./Imagenes/github-sign.png" alt="github">    
+                <a href="https://github.com/VeronicaManchola"><img class="sizing spacing" src="./Imagenes/github-sign.png" alt="github"></a>    
                 <p class="spacing">En GitHub</p>
             </div>
             <div class="col-5 col-sm-4 col-md-3 middle">
-                <img class="sizing spacing" src="./Imagenes/linkedin.png" alt="linkedin">
+                <a href=""><img class="sizing spacing" src="./Imagenes/linkedin.png" alt="linkedin"></a>
                 <p class="spacing">En LinkedIn</p>
             </div>
             <div class="col-5 col-sm-4 col-md-3 middle">
-                <img class="sizing spacing" src="./Imagenes/close-envelope.png" alt="email">
+                <a href="mailto:veronica.manchola@gmail.com"><img class="sizing spacing" src="./Imagenes/close-envelope.png" alt="email"></a>
                 <p class="spacing">Por email</p>
             </div>
         </div>
