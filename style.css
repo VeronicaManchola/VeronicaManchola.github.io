@@ -10,6 +10,22 @@ header{
     background-repeat: no-repeat;
 }
 
+.lanContainer{
+    margin-right: 0 !important;
+}
+
+.languages{
+    color: #ffffff;
+    float: inline-end;
+    list-style: none;
+    display: inline-flex;
+}
+
+#englishBtn, #españolBtn{
+    margin: 0 0.2rem;
+    cursor: pointer;
+}
+
 #profileImage{
     display: inline-block;
     border-radius: 50%;
@@ -51,6 +67,10 @@ a{
 .nav-tabs{
     border-bottom: 1px solid #5E8C9E !important;
     cursor: pointer;
+}
+
+.nav-item{
+    margin: 0 auto;
 }
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
@@ -124,7 +144,7 @@ a:hover{
     }
 
     .imgPosition{
-        bottom: -7rem;
+        bottom: -4.5rem;
         position: relative;
     }
 }
@@ -143,7 +163,7 @@ a:hover{
 
     .imgPosition{
         position: relative;
-        bottom: -10rem;
+        bottom: -7.5rem;
     }
 
     h4{
