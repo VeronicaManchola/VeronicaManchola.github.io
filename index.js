@@ -13,7 +13,7 @@ projects.addEventListener("click", () => {
             <div class="col-12 col-md-6">
                 <div class="card spacing" style="max-width: 540px;">
                     <div class="fixedHeight">
-                        <img src="./Imagenes/DataLovers.png" class="card-img" alt="DataLovers">
+                        <img src="https://raw.githubusercontent.com/VeronicaManchola/VeronicaManchola.github.io/master/Imagenes/DataLovers.png" class="card-img" alt="DataLovers">
                     </div>
                     <div class="card-body">
                         <h5 class="card-title title">Pokedex Kanto</h5>
@@ -25,7 +25,7 @@ projects.addEventListener("click", () => {
             <div class="col-12 col-md-6">
                 <div class="card spacing" style="max-width: 540px;">
                     <div class="fixedHeight">
-                        <img src="./Imagenes/FoodNTravel.png" class="card-img" alt="FoodNTravel">
+                        <img src="https://raw.githubusercontent.com/VeronicaManchola/VeronicaManchola.github.io/master/Imagenes/FoodNTravel.png" class="card-img" alt="FoodNTravel">
                     </div>
                     <div class="card-body">
                         <h5 class="card-title title">Food & Travel</h5>
@@ -37,7 +37,7 @@ projects.addEventListener("click", () => {
             <div class="col-12 col-md-6">
                 <div class="card spacing" style="max-width: 540px;">
                     <div class="fixedHeight">
-                        <img src="./Imagenes/md-links.png" class="card-img" alt="md-links">
+                        <img src="https://raw.githubusercontent.com/VeronicaManchola/VeronicaManchola.github.io/master/Imagenes/md-links.png" class="card-img" alt="md-links">
                     </div>
                     <div class="card-body">
                         <h5 class="card-title title">Md-Links</h5>
@@ -49,7 +49,7 @@ projects.addEventListener("click", () => {
             <div class="col-12 col-md-6">
                 <div class="card spacing" style="max-width: 540px;">
                     <div class="fixedHeight">
-                        <img src="./Imagenes/BurguerQueen.png" class="card-img" alt="BurguerQueen">
+                        <img src="https://raw.githubusercontent.com/VeronicaManchola/VeronicaManchola.github.io/master/Imagenes/BurguerQueen.png" class="card-img" alt="BurguerQueen">
                     </div>
                     <div class="card-body">
                         <h5 class="card-title title">Burger Queen</h5>
@@ -101,15 +101,15 @@ contact.addEventListener("click", () => {
     <div class="container spacing">
         <div class="row centered middle">
             <div class="col-5 col-sm-4 col-md-3 middle">
-                <a href="https://github.com/VeronicaManchola"><img class="sizing spacing" src="./Imagenes/github-sign.png" alt="github"></a>    
+                <a href="https://github.com/VeronicaManchola"><img class="sizing spacing" src="https://raw.githubusercontent.com/VeronicaManchola/VeronicaManchola.github.io/master/Imagenes/github-sign.png" alt="github"></a>    
                 <p class="spacing">En GitHub</p>
             </div>
             <div class="col-5 col-sm-4 col-md-3 middle">
-                <a href=""><img class="sizing spacing" src="./Imagenes/linkedin.png" alt="linkedin"></a>
+                <a href=""><img class="sizing spacing" src="https://raw.githubusercontent.com/VeronicaManchola/VeronicaManchola.github.io/master/Imagenes/linkedin.png" alt="linkedin"></a>
                 <p class="spacing">En LinkedIn</p>
             </div>
             <div class="col-5 col-sm-4 col-md-3 middle">
-                <a href="mailto:veronica.manchola@gmail.com"><img class="sizing spacing" src="./Imagenes/close-envelope.png" alt="email"></a>
+                <a href="mailto:veronica.manchola@gmail.com"><img class="sizing spacing" src="https://raw.githubusercontent.com/VeronicaManchola/VeronicaManchola.github.io/master/Imagenes/close-envelope.png" alt="email"></a>
                 <p class="spacing">Por email</p>
             </div>
         </div>

@@ -4,7 +4,7 @@ body{
 }
 
 header{
-    background-image: url('./Imagenes/header.jpg');
+    background-image: url('https://raw.githubusercontent.com/VeronicaManchola/VeronicaManchola.github.io/master/Imagenes/header.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -13,7 +13,7 @@ header{
 #profileImage{
     display: inline-block;
     border-radius: 50%;
-    background-image: url('./Imagenes/IMG_9024.JPG');
+    background-image: url('https://raw.githubusercontent.com/VeronicaManchola/VeronicaManchola.github.io/master/Imagenes/IMG_9024.JPG');
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
