@@ -16,7 +16,7 @@ header{
 
 .languages{
     color: #ffffff;
-    float: inline-end;
+    float: right;
     list-style: none;
     display: inline-flex;
 }
