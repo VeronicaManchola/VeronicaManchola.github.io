@@ -12,70 +12,75 @@
 </head>
 
 <body>
-    <header>
-        <div class="container lanContainer">
-            <div class="row">
-                <div class="col-12">
-                    <ul class="languages">
-                        <li id="englishBtn">EN </li>
-                        <li>|</li>
-                        <li id="españolBtn">ES</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-12 centered imgPosition">
-                    <div id="profileImage"></div>
-                </div>
-            </div>
-        </div>
-    </header>
 
-    <section class="section">
-        <div class="container">
-            <div class="row centered">
-                <div class="col-12">
-                    <h4 class="title">Verónica Manchola</h4 class="title">
+    <section id="loadingPage" class="text-center">
+        <div>
+            <h1 id="loadingPageText" class="tracking-in-expand">{ <button id="engFrstBtn"
+                    class="customBtn">English</button> | <button id="spaFrstBtn" class="customBtn">Español</button> }
+            </h1>
+        </div>
+    </section>
+
+    <section id="contentPage">
+        <header id="header">
+            <div class="container lanContainer">
+                <div class="row">
+                    <div class="col-12">
+                        <ul class="languages">
+                            <li id="englishBtn">EN </li>
+                            <li>|</li>
+                            <li id="españolBtn">ES</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <div class="container">
-            <div class="row centered">
-                <div class="col-11 middle">
-                    <p id="summary" class="spacing">
-                    </p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center imgPosition">
+                        <div id="profileImage"></div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </header>
 
-        <div class="container spacing">
-            <div class="row">
-                <div class="col-12 centered">
-                    <ul class="nav nav-tabs">
-                        <li class="nav-item">
-                            <a class="nav-link" id="projects"></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="skills"></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="contact"></a>
-                        </li>
-                    </ul>
+        <section class="section">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-12">
+                        <h4 class="title">Verónica Manchola</h4 class="title">
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="container">
-            <div class="row">
-                <div id="root" class="col-10 middle">
-
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-11 middle">
+                        <h5 id="summary" class="spacing"></h5>
+                    </div>
                 </div>
             </div>
-        </div>
+
+            <div class="container spacing">
+                <div class="row">
+                    <div class="col-11 col-md-8 text-center middle">
+                        <ul class="nav nav-tabs flex-column flex-sm-row">
+                            <a class="flex-sm-fill text-sm-center nav-link" id="aboutMe"></a>
+                            <a class="flex-sm-fill text-sm-center nav-link" id="projects"></a>
+                            <a class="flex-sm-fill text-sm-center nav-link" id="skills"></a>
+                            <a class="flex-sm-fill text-sm-center nav-link" id="contact"></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div id="root" class="col-10 middle">
+
+                    </div>
+                </div>
+            </div>
+        </section>
     </section>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
