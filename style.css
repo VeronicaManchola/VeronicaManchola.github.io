@@ -10,8 +10,11 @@ body{
 /*Loading Page animation*/
 
 .tracking-in-expand {
-	-webkit-animation: tracking-in-expand 1.8s ease-in both;
-	        animation: tracking-in-expand 1.8s ease-in both;
+    -webkit-animation: tracking-in-expand 1.8s ease-in both;
+       -moz-animation: tracking-in-expand 1.8s ease-in both;
+        -ms-animation: tracking-in-expand 1.8s ease-in both;
+         -o-animation: tracking-in-expand 1.8s ease-in both;
+            animation: tracking-in-expand 1.8s ease-in both;
 }
 
 /* ----------------------------------------------
@@ -24,7 +27,7 @@ body{
  * animation tracking-in-expand
  * ----------------------------------------
  */
- @-webkit-keyframes tracking-in-expand {
+   @-webkit-keyframes tracking-in-expand {
     0% {
       letter-spacing: -0.5em;
       opacity: 0;
@@ -36,6 +39,46 @@ body{
       opacity: 1;
     }
   }
+
+  @-moz-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-ms-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-o-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
   @keyframes tracking-in-expand {
     0% {
       letter-spacing: -0.5em;
@@ -53,7 +96,8 @@ body{
 .customBtn{
     background: transparent;
     border: none;
-    color: inherit;
+    color: inherit !important;
+    display: inline;
 }
 
 #loadingPage{

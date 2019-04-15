@@ -2,7 +2,6 @@ import { spanishPage } from './spanish.js'
 import { englishPage } from './english.js'
 
 window.onload = () => {
-    profileImgDiv.style.display = "block";
     loadingPage.style.display = "block";
 };
 

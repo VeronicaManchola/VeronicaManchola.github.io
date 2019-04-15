@@ -16,10 +16,10 @@ export const spanishPage = () => {
         root.innerHTML = `
         <div class="container spacing">
             <div class="row justCenter">
-                <div class="col-3 col-md-4">
+                <div class="col-12 col-sm-6 col-md-4 spacing">
                     <img src="./Imagenes/javascript_isnpmf.png" alt="logo" class="img-fluid"/>
                 </div>
-                <div class="col-9 col-md-6">
+                <div class="col-12 col-sm-6 col-md-6 spacing">
                     <p>Desarrolladora Front-End con un alto sentido de la responsabilidad, trabajo en equipo, compromiso
                         y adaptabilidad. Tras 7 años de experiencia en areas altamente relacionadas a servicio
                         al cliente, liderazgo de equipos y auto-aprendizaje, he adquirido habilidades que me dan una base
