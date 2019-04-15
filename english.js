@@ -1,6 +1,6 @@
 export const englishPage = () => {
 
-    summary.innerHTML = `Front-End Developer. Native spanish speaker.`;
+    summary.innerHTML = `Front-End Developer. </br> Native spanish speaker.`;
 
     aboutMe.innerHTML = `About me`;
     projects.innerHTML = `Projects`;

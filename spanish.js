@@ -1,6 +1,6 @@
 export const spanishPage = () => {
 
-    summary.innerHTML = `Desarrolladora Front-End. Inglés fluido.`;
+    summary.innerHTML = `Desarrolladora Front-End. </br> Inglés fluido.`;
 
     aboutMe.innerHTML = `Sobre mi`;
     projects.innerHTML = `Proyectos`;
@@ -61,7 +61,7 @@ export const spanishPage = () => {
                         </div>
                         <div class="card-body">
                             <h5 class="card-title title">Food & Travel</h5>
-                            <p class="card-text">Red social enfocada a viajeros que desean compartir su gusto
+                            <p class="card-text">Red social para viajeros que desean compartir su gusto
                             por la comida y los mejores restaurantes a visitar en una nueva ciudad.</p>
                         </div>
                     </div>
