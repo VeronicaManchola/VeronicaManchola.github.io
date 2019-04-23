@@ -21,7 +21,7 @@ export const spanishPage = () => {
                 </div>
                 <div class="col-12 col-sm-6 col-md-6 spacing">
                     <p>Desarrolladora Front-End con un alto sentido de la responsabilidad, trabajo en equipo, compromiso
-                        y adaptabilidad. Tras 7 años de experiencia en areas altamente relacionadas a servicio
+                        y adaptabilidad. Tras 7 años de experiencia en áreas altamente relacionadas a servicio
                         al cliente, liderazgo de equipos y auto-aprendizaje, he adquirido habilidades que me dan una base
                         fuerte para generar un impacto positivo en mi entorno.</p>
                 </div>
@@ -48,7 +48,7 @@ export const spanishPage = () => {
                         <div class="card-body">
                             <h5 class="card-title title">Pokedex Kanto</h5>
                             <p class="card-text">Se consume la data de un JSON para mostrarla de una manera
-                            dinamica incluyendo opciones de filtro, orden y busqueda.</p>
+                            dinámica incluyendo opciones de filtro, orden y búsqueda.</p>
                         </div>
                     </div>
                 <a>
@@ -76,7 +76,7 @@ export const spanishPage = () => {
                         <div class="card-body">
                             <h5 class="card-title title">Md-Links</h5>
                             <p class="card-text">Framework que permite validar los links dentro de un archivo ".md"
-                            y asi mismo saber cuantos de ellos no esta disponibles para usarse.</p>
+                            y así mismo saber cuantos de ellos no esta disponibles para usarse.</p>
                         </div>
                     </div>
                 </a>
