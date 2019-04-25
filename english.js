@@ -147,7 +147,7 @@ export const englishPage = () => {
                 <p class="spacing">On GitHub</p>
             </div>
             <div class="col-5 col-sm-4 col-md-3 middle blink-2">
-                <a href=""><img class="sizing spacing" src="https://raw.githubusercontent.com/VeronicaManchola/VeronicaManchola.github.io/master/Imagenes/linkedin.png" alt="linkedin"></a>
+                <a href="https://www.linkedin.com/in/veronicamanchola/"><img class="sizing spacing" src="https://raw.githubusercontent.com/VeronicaManchola/VeronicaManchola.github.io/master/Imagenes/linkedin.png" alt="linkedin"></a>
                 <p class="spacing">On LinkedIn</p>
             </div>
             <div class="col-5 col-sm-4 col-md-3 middle blink-2">
